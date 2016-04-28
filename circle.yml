@@ -5,7 +5,7 @@ machine:
     TERRAFORM_VERSION: 0.6.6
 
 dependencies:
-  chache_directories:
+  cache_directories:
     - ~/.terraform
   pre:
     - |
