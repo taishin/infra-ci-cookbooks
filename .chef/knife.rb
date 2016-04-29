@@ -7,3 +7,5 @@ data_bag_path    "data_bags"
 
 knife[:berkshelf_path] = "cookbooks"
 Chef::Config[:ssl_verify_mode] = :verify_peer if defined? ::Chef
+ verbosity    :debug
+ log_location "logs/knife.log"
